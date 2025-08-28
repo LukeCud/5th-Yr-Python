@@ -1,0 +1,10 @@
+#1
+print("Goodbye!" ,end="")
+print("Goodbye!")
+#2
+print("no\tway",end="")
+print(".")
+#3
+print("*\t*\n *     *\n  *   *\n   * *\n    *\n   * *\n  *   *\n *     *\n*\t*")
+#4
+print("xx\txx\nx\t x\n   xxxx\nx\t x\nxx\txx")
