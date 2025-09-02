@@ -1,0 +1,75 @@
+age = 25
+if age >=18:
+    print(True)
+else:
+    print(Falsee!" ,end="")
+print("Goodbye!")
+#2
+print("no\tway",end="")
+print(".")
+#3
+print("*\t*\n *     *\n  *   *\n   * *\n    *\n   * *\n  *   *\n *     *\n*\t*")
+#4
+print("xx\txx\nx\t x\n   xxxx\nx\t x\nxx\txx")
+
+age = 25
+if age >=18:
+    print(True)
+else:
+    print(False)
+
+
+# # a= 4
+# # b= 15
+# # print(b/a)
+# # print(a*b)
+# # print(a//b)
+# # print(b+b)
+# # print(a-a)
+# # print(b%a)
+# pi=3.14
+# r = 7
+# answer =((4/3)*pi)*r**3
+# print(answer)
+#it solved the question using the ordeer of indecies
+#1436.0266666666666
+# answer = (4+5) / (1+2)
+# 
+# print(answer)
+
+number = int(input("Enter number: "))
+answer = number%2
+if answer == 0:
+    print("even number")
+else:
+    print("odd")
+    
+wordA = "hello"
+wordB = "world"
+print(wordA +" "+ wordB)
+print(f'{wordA} {wordB}')
+
+#1
+
+age = int(input("Enter your age:"))
+print(age,"what a great age!!")
+
+#2
+num1 =float(input("Enter a decimal number: "))
+num2 =float(input("Enter another decimal number: "))
+print(num1+num2)
+print(num1-num2)
+print(num1*num2)
+
+#3
+num1 =float(input("Enter a decimal number: "))
+num2 =float(input("Enter another decimal number: "))
+num3= (num1+num2)
+print(num3/2)
+print(num1%num2)
+print(num1**num2)
+'''
+#4
+farenheit = float(input("Enter the temperature Chicago in Farenheit: "))
+Celsius = (5/9)*(farenheit - 32)
+print("The weather in Chicago which is",(farenheit)," is equivalent to ",(Celsius),"degrees Celsius")
