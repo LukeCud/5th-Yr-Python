@@ -1,0 +1,24 @@
+'''
+#8
+lengthG =int(input("Enter the length of your garden in metres: "))
+widthG =int(input("Enter the Width of your garden in metres: "))
+lengthH=int(input("Enter the Length of your house in metres: "))
+widthH =int(input("Enter the Width of your house in metres: "))
+msqg= (lengthG*widthG)
+print(msqg)
+msqh= (lengthH*widthH)
+realSG= (msqg-msqh)
+print("Your garden is",realSG,"square metres")
+timeS= (realSG/2)
+timeM= (timeS/60)
+Timerounded=round(timeM,2)
+print("It will take you",Timerounded,"minutes to cut your garden")
+'''
+
+character =str(input("Enter a character: "))
+ascii=ord(character)
+print(type(ascii))
+print("The decimal value for the letter A is: ",ascii)
+output = chr(ascii)
+print(type(output))
+print("the character represented by decimal value", ascii,"is:",output)
