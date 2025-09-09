@@ -1,0 +1,96 @@
+# #Prints binary for a number
+# print(bin(200))
+# character =str(input("Enter a character: "))
+# ascii=ord(character)
+# print(type(ascii))
+# print("The decimal value for the letter A is: ",ascii)
+# output = chr(ascii)
+# print(type(output))
+# print("the character represented by decimal value", ascii,"is:",output)
+
+#Ceasar shift
+# myLetter =int(input("type in a number: "))
+# key = 3
+# secretletter = myLetter+key
+# print(secretletter)
+
+# character=input("Enter a letter A-Z:")
+# key=int(input("Enter a number 1-9:"))
+# ascii=ord(character)
+# encLetter=chr(ascii+key)
+# print("The encrypted letter is:", encLetter)
+
+# string1 = "hello"
+# string1=string1.upper()
+# print(string1)
+# string1 = "HELLO"
+# string1=string1.lower()
+# print(string1)
+# string1 = "hElLO"
+# string1=string1.capitalize()
+# print(string1)
+# string1="Hello"
+# length=len(string1)
+# print(length)
+# print(type(length))
+# 
+# s1=("Hello World!")
+# s2=("Mr.Magoo")
+# s3=("8 or 9?")
+# s4=("Jay-Zee")
+# answer = s1+s2+s3+s4
+# length=len(answer)
+# print(length)
+# print(type(length))
+
+# myname="Luke Cuddy"
+# length =len(myname)
+# print(length)
+# print(myname[9])
+# print(myname[-1])
+# print(myname[5:10])
+# print(myname[:10])
+
+# myname= Luke Cuddy
+# lookfor = input("Enter letter: ")
+# lookup = myname.__contains__(lookfor)
+# print(type(lookup))
+# print(myname.__contains__("V"))
+# spaceloc = myname.index("C")
+
+# myname = input("Enter your email:")
+# lookfor = ("@")
+# lookup =myname.__contains__(lookfor)
+# print(type(lookup))
+# print(myname.__contains__("@"))
+# else:
+#     print("this is not a valid email"))
+    
+    
+#TASKS
+
+#2
+# name = input("What is your full name: ")
+# spaceloc=name.index(" ")
+# print(name[0:spaceloc])
+# print(name[spaceloc+1:])
+
+#4
+# sec = int(input("Enter a 5 digit number: "))
+# min = (sec/60)
+# minr =round(min,0)
+# print(minr)
+
+#6
+# cost = 684*0.19
+# costr = cost+26.20
+# print(cost2)
+# cost = int(input("Enter the number of units of electricity you used this month: "))
+# costr = (cost*0.19)+26.20
+# print(costr)
+
+#8
+Word =input("Enter a 5 digit word: ")
+key = 23
+secretletter = Word+key
+print(secretletter)
