@@ -1,0 +1,28 @@
+# mylist = ["Bmw","Audi","Volvo","Toyota","Kia"]
+# mylist.append("Ferrari")
+# Newcar = input("enter new car: ")
+# mylist.append(Nc)
+# print(mylist)
+# 
+# mylist = ["Bmw","Audi","Volvo","Toyota","Kia"]
+# Newcar = input("enter new car: ")
+# mylist.extend(Newcar)
+# print(mylist)
+
+# mylist = ["Bmw","Audi","Volvo","Toyota","Kia"]
+# newcars = ["Honda","Ford"]
+# mylist.extend(newcars)
+# print(mylist)
+
+mylist = ["Bmw","Audi","Volvo","Toyota","Kia"]
+addcar == input("Would you like to add any cars")
+if addcar == ("yes")
+# print("Input cars")
+# elif addcar "no"
+# print(would oy==
+# 0 = no
+# 1 = yes
+# print(mylist)
+# 
+# Mylist = ["Bmw","Audi","Volvo","Toyota","Kia"]
+# print(Mylist[1])
