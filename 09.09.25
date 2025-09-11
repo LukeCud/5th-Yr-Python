@@ -84,7 +84,7 @@
 #6
 # cost = 684*0.19
 # costr = cost+26.20
-# print(cost2)
+# print(costr)
 # cost = int(input("Enter the number of units of electricity you used this month: "))
 # costr = (cost*0.19)+26.20
 # print(costr)
