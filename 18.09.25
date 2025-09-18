@@ -1,0 +1,18 @@
+# #Task2
+# age = int(input("Enter your age: "))
+# statement = ("You are not eligible for a licence")
+# statement2 = ("You are eligible for a licence")
+# if age <17:
+#     print(statement)
+# if age >=17:
+#     print(statement2)
+#     
+#task3
+# item = int(input("Enter the value of the item you wish to purchase: "))
+# if item >10000:
+#     print("You must go to tender")
+# if 500 < item < 10000:
+#     print("You must get 3 statements from 3 different producers")
+# if item <500:
+#     print("You may order the item")
+#task4
