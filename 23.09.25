@@ -1,0 +1,56 @@
+# def happyBirthday():
+#     print("Happy birthday")
+# for i in range (3):
+#     happyBirthday()
+# 
+# def piVal(a,b):
+#     print(a/b)
+# 
+# x=3
+# y=6
+# 
+# piVal(x,y)
+# 
+# def multiply(a,b):
+#     print(a*b)
+# 
+# y= int(input("enter a number: "))
+# x= int(input("enter a number: "))
+# piVal(x,y)
+# 
+# def powerof(a,b):
+#     print(a**b)
+# 
+# y= int(input("enter a number: "))
+# x= int(input("enter a number: "))
+# powerof(x,y)
+# def is_leap_year(y):
+#     if (y % 400 == 0 ) or (( y % 4 == 0) and (y % 100 != 0)):
+#         return True
+#     else:
+#         return False
+# 
+# leapyr = int(input("enter a year: "))
+# 
+# if is_leap_year(leapyr):
+#     print("was/is a leap year")
+# else:
+#     print("was/is not a leap year")
+
+
+# def vol(a,b,c):
+#     print(a*b*c)
+# a= int(input("enter length: "))
+# b= int(input("enter width: "))
+# c= int(input("enter depth: "))
+
+def validemail(name):
+    if name.count(".") >= 1 and name.count("@") == 1 and len(name) >8:
+        return True
+    else:
+        return False
+name = str(input("Enter your email: "))
+validemail(name)
+# print(name.count("."))
+# print(name.count("@"))
+# print(len(name))
