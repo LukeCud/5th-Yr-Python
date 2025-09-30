@@ -1,0 +1,53 @@
+# correctPassword = input("Enter a Password to create a password: ")
+# password = input("Enter your password: ")
+# if password != correctPassword:
+#     input("This password is incorect please re-enter password: ")
+# else:
+#     print("This password is correct")
+
+# #6
+# # sent = input("enter a sentence: ")
+# # lookfor = (" ")
+# # lookup = sent.__contains__(lookfor)
+# # print(type(lookup))
+# # print(sent.__contains__(" "))
+# 
+# #7
+# print("**********************")
+# print("*    LUCYS SEWING    *")
+# print("**********************")
+# print("* 1) choose cushions *")
+# print("* 2) choose curtains *")
+# print("* 3) choose quilts   *")
+# print("* 4) exit            *")
+# print("*                    *")
+# print("**********************")
+# option = int(input("enter an option 1 - 4: "))
+# while (option != 5):
+#     if option == 1:
+#         print("this is a cushion")
+#         option = 0
+#     elif(option == 2):
+#         print("these are curtains")
+#         option = 0
+#     elif(option == 3):
+#         print("this is a quilt")
+#         option = 0
+#     elif(option == 4):
+#         print("you would like to exit. Goodbye!")
+#         option = 0
+
+#4
+num = int(input("Enter a positive whole number: "))
+odd = 0 
+even = 0 
+
+n = 1
+while n <=num:
+    if n % 2 == 0:
+        even = even + n
+    else:
+        odd = odd + n
+    n = n + 1
+print("odd =", odd)
+print("even =", even)
