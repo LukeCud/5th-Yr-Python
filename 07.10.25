@@ -1,0 +1,85 @@
+# for i in range(4,14,+2):
+#     print(i)
+#     
+# for i in range(6,1,-1):
+#     print(i)
+#     
+# for i in range(1,28,+2):
+#     print(i)
+# 
+# sentence = "Hello world 28"
+# spacecount = 0
+# for x in sentence:
+#     if x == " ":
+#         spacecount+=1
+# print("spaces = ",spacecount)
+# #     print(x)
+# 
+# wordcount = spacecount + 1
+# print ("words = ",wordcount)
+# 
+
+# sentence = input("Enter a sentence: ")
+# spacecount = 0
+# for x in sentence:
+#     if x == " ":
+#         spacecount+=1
+# print("spaces = ",spacecount)
+# #     print(x)
+# 
+# wordcount = spacecount + 1
+# print ("words = ",wordcount)
+
+# total = 0
+# for y in range(1,101):
+#     total += y
+# print(total)
+
+# num = int(input("Enter a number:"))
+# for y in range(1,11):
+#     tnum = num*y
+#     print(num,"x",y,"=",tnum)
+#     
+# num = int(input("Enter a number:"))
+# for y in range(1,11):
+#     tnum = num*y
+#     if tnum == 49:
+#         continue
+#     print(num,"x",y,"=",tnum)
+# 
+# num = int(input("Enter a number:"))
+# for y in range(1,11):
+#     tnum = num*y
+#     if tnum == 49:
+#         break
+#     print(num,"x",y,"=",tnum)
+    
+# for y in range (1,51):
+#     if y % 15 == 0:    print("Fizzbuzz")
+#     elif y % 3 == 0:
+#         print("fizz")
+#     elif y % 5 == 0:
+#         print("buzz")
+#     else:
+#         print(y)
+
+#1
+# for y in range(1,11):
+#     print(y)
+#2
+
+# sentence = input("enter a sentence: ")
+# vowelcount = 0
+# for x in sentence:
+#     if x == ("a"):
+#         vowelcount+=1
+#     elif x == ("e"):
+#         vowelcount+=1
+#     elif x == ("i"):
+#         vowelcount+=1
+#     elif x == ("o"):
+#         vowelcount+=1
+#     elif x == ("u"):
+#         vowelcount+=1
+# print(vowelcount)
+
