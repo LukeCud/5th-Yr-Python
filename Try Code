@@ -1,0 +1,44 @@
+#not working yet
+
+print("Welcome to luxury car dealers")
+account = input("Do you have an account?: ")
+if account == ("yes"):
+correctPassword1 = input("Enter a Password to create a password: ")
+password1 = input("Enter your password: ")
+    if password1 != correctPassword1:
+        input("This password is incorect please re-enter password: ")
+        print("goodbye")
+        exit()
+    else:
+        print("This password is correct")
+else:
+    acc1 = input("Would you like to create an account?: ")
+    if acc1 == ("yes"):
+        correctPassword = input("Enter a Password to create a password: ")
+        password = input("Enter your password: ")
+        if password != correctPassword:
+            input("This password is incorect please re-enter password: ")
+            print("goodbye")
+            exit()
+        else:
+            print("This password is correct")
+    else:
+        print("goodbye")
+        exit()
+
+myCars=['ford','honda','audi','nissan']
+print("Enter the make you would like to find: ")
+carname= input()
+carname = carname.lower()
+ford=['Capri','Bronco','Raptor','Gt']
+honda=['Civic','CR-V','Accord','Type-R']
+audi=['Q8','e-tron','A3','A6']
+nissan=['Leaf','Gtr','Altima','Ariya']
+if carname == ("ford"):
+    print(ford)
+elif carname == ("honda"):
+    print(honda)
+elif carname == ("audi"):
+    print(audi)
+elif carname == ("nissan"):
+    print(nissan)
