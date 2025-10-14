@@ -1,0 +1,87 @@
+# mystring = "Luke Cuddy"
+# print(mystring)
+# mystringlist = list(mystring)
+# print(mystringlist)
+# print(type(mystring))
+# print(type(mystringlist))
+# mmystringlist=['L', 'u', 'k', 'e', ' ', 'C', 'u', 'd', 'd', 'y']
+# print(mystringlist[7])
+# print(mystringlist[-2])
+# print(mystringlist[1:8])
+# myCars=['ford','honda','audi','nissan']
+# print("Enter the make you would like to find: ")
+# carname = input()
+# if carname not in myCars:
+#     print("We do not have stock")
+# else:
+#     print("We do have stock")
+# 
+# if 'a' in ['L', 'u', 'k', 'e', ' ', 'C', 'u', 'd', 'd', 'y']:
+#     print("It is in the list")
+# else:
+#     print("It is not in the list")
+    
+
+#used for value
+# mynumbers = [1,2,6,78,4,9]
+# print(mynumbers)
+# mynumbers.append(11)
+# print(mynumbers)
+#used for list
+# mynumbers = [1,2,6,78,4,9]
+#mynum =[5,12]
+# print(mynumbers)
+# mynumbers.extend(L)
+# print(mynumbers)
+#inserts in the list at a specific place
+# mynumbers = [1,2,6,78,4,9]
+# print(mynumbers)
+# mynumbers.insert(2,3)
+# print(mynumbers)
+# removes a certain value
+# mynumbers = [1,2,6,78,4,9]
+# print(mynumbers)
+# mynumbers.remove(4)
+# print(mynumbers)
+# removes a value at a cerain position
+# mynumbers = [1,2,6,78,4,9]
+# print(mynumbers)
+# mynumbers.pop(3)
+# print(mynumbers)
+#sorts the numbers
+# mynumbers = [1,2,6,78,4,9]
+# print(mynumbers)
+# mynumbers.sort()
+# print(mynumbers)
+#Reverses the numbers in a sequence
+# mynumbers = [1,2,6,78,4,9]
+# print(mynumbers)
+# mynumbers.reverse()
+# print(mynumbers)
+#counts the amount of times a certain value occurs
+# mynumbers = [1,2,6,78,4,9]
+# print(mynumbers)
+# mynumbers.count(9)
+# print(mynumbers.count(9))
+
+# mynum =[1,2,6,78,4,-9,78,87,9,-0,78,6,5,3,78,-4,2,34,56,78,9,0,7,6,8,7,6,5,6,5,4,7,8,78,9,8]
+# print(mynum)
+# target = 78
+# freqnum = 0
+# counter = 0
+# while counter < len(mynum):
+#     if mynum[counter] == target:
+#         freqnum+=1
+#         print(counter,"found at", counter)
+#     counter+=1
+
+mynum =[1,2,6,78,4,-9,78,87,9,-0,78,6,5,3,78,-4,2,34,56,78,9,0,7,6,8,7,6,5,6,5,4,7,8,78,9,8]
+print(mynum)
+target = 0
+freqnum = 0
+counter = 0
+while counter < len(mynum):
+    if mynum[counter] < target:
+        freqnum+=1
+        print(target,"found at", counter)
+    counter+=1
