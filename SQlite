@@ -1,0 +1,10 @@
+import sqlite3
+con = sqlite3.connect("tutorial.db")
+cur = con.cursor()
+res=cur.execute("Select name From sqlite_master WHERE name='spam'")
+res.fetchone() is None
+True
+cur.execute("""INSERT INTO movie Values('Mony python and the holy grail',1975,8.2),('And now for something completely different',1971,7.5)""")
+res = cur.execute("SELECT score From movie")
+res.fetchall()
+[(8.2,),(7.5,)]
