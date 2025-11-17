@@ -1,30 +1,40 @@
-#not working yet
+import sqlite3
+con = sqlite3.connect("password.db")
+con = con.cursor()
+cur.execute
 
-print("Welcome to luxury car dealers")
-account = input("Do you have an account?: ")
-if account == ("yes"):
-correctPassword1 = input("Enter a Password to create a password: ")
-password1 = input("Enter your password: ")
-    if password1 != correctPassword1:
-        input("This password is incorect please re-enter password: ")
-        print("goodbye")
-        exit()
-    else:
-        print("This password is correct")
-else:
-    acc1 = input("Would you like to create an account?: ")
-    if acc1 == ("yes"):
-        correctPassword = input("Enter a Password to create a password: ")
-        password = input("Enter your password: ")
-        if password != correctPassword:
-            input("This password is incorect please re-enter password: ")
-            print("goodbye")
-            exit()
-        else:
-            print("This password is correct")
-    else:
-        print("goodbye")
-        exit()
+
+
+
+
+
+# #not working yet
+# 
+# print("Welcome to luxury car dealers")
+# account = input("Do you have an account?: ")
+# if account == ("yes"):
+# correctPassword1 = input("Enter a Password to create a password: ")
+# password1 = input("Enter your password: ")
+#     if password1 != correctPassword1:
+#         input("This password is incorect please re-enter password: ")
+#         print("goodbye")
+#         exit()
+#     else:
+#         print("This password is correct")
+# else:
+#     acc1 = input("Would you like to create an account?: ")
+#     if acc1 == ("yes"):
+#         correctPassword = input("Enter a Password to create a password: ")
+#         password = input("Enter your password: ")
+#         if password != correctPassword:
+#             input("This password is incorect please re-enter password: ")
+#             print("goodbye")
+#             exit()
+#         else:
+#             print("This password is correct")
+#     else:
+#         print("goodbye")
+#         exit()
 
 myCars=['ford','honda','audi','nissan']
 print("Enter the make you would like to find: ")
@@ -35,9 +45,31 @@ honda=['Civic','CR-V','Accord','Type-R']
 audi=['Q8','e-tron','A3','A6']
 nissan=['Leaf','Gtr','Altima','Ariya']
 if carname == ("ford"):
-    print(ford)
+    print("We have",ford,"in stock")
+    print("Enter the model you would like: " )
+    fmake = input()
+    fmake = fmake.lower()
+    if fmake == ("capri"):
+        print("this car is 54000 euros")
+    elif fmake == ("bronco"):
+        print("this car is 30000 euros")
+    elif fmake == ("raptor"):
+        print("this car is 64000 euros")
+    elif fmake == ("gt"):
+        print("this car is 83000 euros")
 elif carname == ("honda"):
-    print(honda)
+    print("We have",honda,"in stock")
+    print("Enter the model you would like: " )
+    hmake = input()
+    hmake = hmake.lower()
+    if hmake == ("Civic"):
+        print("this car is 54000 euros")
+    elif hmake == ("CR-V"):
+        print("this car is 30000 euros")
+    elif hmake == ("Accord"):
+        print("this car is 64000 euros")
+    elif hmake == ("Type-R"):
+        print("this car is 83000 euros")
 elif carname == ("audi"):
     print(audi)
 elif carname == ("nissan"):
