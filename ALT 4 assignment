@@ -1,0 +1,25 @@
+import serial, time
+import csv
+
+port = "COM3"
+baud = 115200
+s = serial.Serial(port, baudrate=baud)
+
+# Open CSV file once at start (append mode)
+with open("data_log.csv", "a", newline="") as csvfile:
+    writer = csv.writer(csvfile)
+
+    while True:
+        raw = s.readline()
+        line = raw.decode().strip()
+
+        if line:                         # avoid empty lines
+            value = line.split()[0]      # first token = your number
+            print("Value:", value)
+
+            # Write to CSV with timestamp
+            timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+            writer.writerow([timestamp, value])
+            csvfile.flush()              # ensure data is written to disk
+
+        time.sleep(10)
