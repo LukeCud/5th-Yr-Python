@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mean Scoil Nua an Leith Triuigh Football</title>
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="mystyle">
+Mean Scoil Nua an Leith Triuigh Football
+</div>
+
+<h1>
+<a href="C:\Users\LCuddy\Documents\Subjects\Computers\Notepad\Ch4\Website\Squad.html"> Squad </a>
+</h1>
+
+
+
+</body>
+</html>
+
+------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MSLT GAA Squads</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+
+        .wrapper {
+            display: flex;
+            gap: 20px;
+        }
+
+        .table-box {
+            flex: 1;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #34495e;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        thead {
+            background: #2c3e50;
+            color: white;
+        }
+
+        .line-title {
+            background: #dfe6e9;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .number {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        tbody tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        tbody tr:hover {
+            background: #eaf2f8;
+        }
+
+        @media (max-width: 768px) {
+            .wrapper {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>MSLT GAA Squads</h1>
+
+<div class="wrapper">
+
+    <!-- Men's Team -->
+    <div class="table-box">
+        <h2>Men's Team</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Line</th>
+                    <th>Jersey</th>
+                    <th>Player</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr class="line-title"><td colspan="3">Goalkeeper</td></tr>
+                <tr><td></td><td class="number">1</td><td>Player</td></tr>
+
+                <tr class="line-title"><td colspan="3">Full Back Line</td></tr>
+                <tr><td></td><td class="number">2</td><td>Player</td></tr>
+                <tr><td></td><td class="number">3</td><td>Player</td></tr>
+                <tr><td></td><td class="number">4</td><td>Player</td></tr>
+
+                <tr class="line-title"><td colspan="3">Half Back Line</td></tr>
+                <tr><td></td><td class="number">5</td><td>Player</td></tr>
+                <tr><td></td><td class="number">6</td><td>Player</td></tr>
+                <tr><td></td><td class="number">7</td><td>Player</td></tr>
+
+                <tr class="line-title"><td colspan="3">Midfield</td></tr>
+                <tr><td></td><td class="number">8</td><td>Player</td></tr>
+                <tr><td></td><td class="number">9</td><td>Player</td></tr>
+
+                <tr class="line-title"><td colspan="3">Half Forward Line</td></tr>
+                <tr><td></td><td class="number">10</td><td>Player</td></tr>
+                <tr><td></td><td class="number">11</td><td>Player</td></tr>
+                <tr><td></td><td class="number">12</td><td>Player</td></tr>
+
+                <tr class="line-title"><td colspan="3">Full Forward Line</td></tr>
+                <tr><td></td><td class="number">13</td><td>Player</td></tr>
+                <tr><td></td><td class="number">14</td><td>Player</td></tr>
+                <tr><td></td><td class="number">15</td><td>Player</td></tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Ladies Team -->
+    <div class="table-box">
+        <h2>Ladies' Team</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Line</th>
+                    <th>Jersey</th>
+                    <th>Player</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr class="line-title"><td colspan="3">Goalkeeper</td></tr>
+                <tr><td></td><td class="number">1</td><td>Player</td></tr>
+
+                <tr class="line-title"><td colspan="3">Full Back Line</td></tr>
+                <tr><td></td><td class="number">2</td><td>Player</td></tr>
+                <tr><td></td><td class="number">3</td><td>Player</td></tr>
+                <tr><td></td><td class="number">4</td><td>Player</td></tr>
+
+                <tr class="line-title"><td colspan="3">Half Back Line</td></tr>
+                <tr><td></td><td class="number">5</td><td>Player</td></tr>
+                <tr><td></td><td class="number">6</td><td>Player</td></tr>
+                <tr><td></td><td class="number">7</td><td>Player</td></tr>
+
+                <tr class="line-title"><td colspan="3">Midfield</td></tr>
+                <tr><td></td><td class="number">8</td><td>Player</td></tr>
+                <tr><td></td><td class="number">9</td><td>Player</td></tr>
+
+                <tr class="line-title"><td colspan="3">Half Forward Line</td></tr>
+                <tr><td></td><td class="number">10</td><td>Player</td></tr>
+                <tr><td></td><td class="number">11</td><td>Player</td></tr>
+                <tr><td></td><td class="number">12</td><td>Player</td></tr>
+
+                <tr class="line-title"><td colspan="3">Full Forward Line</td></tr>
+                <tr><td></td><td class="number">13</td><td>Player</td></tr>
+                <tr><td></td><td class="number">14</td><td>Player</td></tr>
+                <tr><td></td><td class="number">15</td><td>Player</td></tr>
+
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+</body>
+</html>
