@@ -1,0 +1,21 @@
+from random import randint
+print(randint(1,99))
+def machine():
+    numbers = []
+    for i in range(10):
+        numbers.append(randint(1,99))
+    return numbers
+
+gen = machine()
+inp = []
+
+for fruity in range(3):
+    num = int(input("Enter a number:"))
+    inp.append(num)
+
+
+if all(number in gen for number in inp):
+    print("You Won!")
+else:
+    print("Try Again!")
+    print("Fruity Slots", gen)
